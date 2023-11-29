@@ -1,9 +1,38 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title> </title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title> SustainableEats </title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  </body>
+<body>
+
+  <div class="container">
+    <div class="Title">
+      SustainableEats
+    </div>
+
+    <div class="text-box">
+      <label for="'username">Username</label>
+      <input type="text" id="username" name="username">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password">
+    </div>
+    
+    
+    <div class="button-container">
+      <button class="button" id="loginButton"> Login </button>
+      <button class ="button"> Forgot Password </button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('loginButton').addEventListener('click', function() {
+      window.location.href = 'main_page.html'; // Assuming your main page file is named 'main.html'
+    });
+  </script>
+</body>
 </html>
