@@ -2,26 +2,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(41, 41, 41);
 }
 
 .container {
     height: 78vh;
     width: 45vh;
+    top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
-    border-radius: 4px;
+    border: none;
+    border-radius: 40px;
     box-shadow: 0px 5px 8px gray;
-    background-color: greenyellow;
+    background-color: rgb(193, 255, 172);
     position: relative;
+    overflow: hidden;
 }
 .Title {
     text-align: center;
     margin-top: 20px;
     font-size: 50px;
-    font-family: 
 }
 
 .text-box {
@@ -39,7 +41,13 @@ body {
     color: black;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 1
+    6px;
+}
+
+.button:hover {
+    background-color: lightgrey;
+    transition: 0.5s ease;
 }
 .topbar {
     display: flex;
@@ -50,6 +58,7 @@ body {
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-bottom: 1px solid rgb(189, 189, 189);
 }
 .bottom-nav {
     display: flex;
@@ -61,15 +70,58 @@ body {
     padding: 0;
     width: 100%;
     background-color: white;
+    border-top: 0.5px solid rgb(189, 189, 189);
 }
 
 .nav-button {
-    padding: 20px 33px;
+    padding: 20px 35px;
     background-color: white;
     border: none;
+    cursor: pointer;
+    outline: none;
 }
 
-.nav-button.active {
-    background-color: #4CAF50;
-    color: white;
+.on-page {
+    padding: 20px 35px;
+    background-color: lightgrey;
+    border: none;
+    cursor: pointer;
 }
+
+.nav-button:hover {
+    background-color: lightgrey;
+    transition: 0.5s ease;
+}
+
+.content-box {
+    position: absolute;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: 63px;
+    bottom: 72px;
+    /*border: 3px solid black;*/
+
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 93%;
+}
+
+.map-iframe {
+    width: 93%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}   
