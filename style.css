@@ -6,22 +6,23 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 20px;
+
 }
 
 .phoneborder {
-    height:100%;
-    width:100%;
-    top:0;
-    left:0;
-    position: absolute;
+    position: fixed;
+    top: 4vh;
+    left: 79vh;
     z-index: 10;
     pointer-events: none;
+    height: 90vh;
+
 }
 
 .container {
-    height: 78vh;
-    width: 45vh;
-    top: 10vh;
+    height: 86vh;
+    width: 40vh;
+    top: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,6 +33,7 @@ body {
     background-color: rgb(193, 255, 172);
     position: relative;
     overflow: hidden;
+
 }
 
 .Title {
@@ -76,10 +78,12 @@ body {
     top: 0 ;
     background-color: white;
     width: 100%;
-    padding-top: 15px;
+    padding-top:60px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgb(189, 189, 189);
     z-index: 2;
+    color: rgb(80, 80, 80);
+    font-size: 20px;
 }
 .bottom-nav {
     display: flex;
@@ -96,7 +100,7 @@ body {
 }
 
 .nav-button {
-    padding: 20px 35px;
+    padding: 25px 30px;
     background-color: white;
     border: none;
     cursor: pointer;
@@ -104,7 +108,7 @@ body {
 }
 
 .on-page {
-    padding: 20px 35px;
+    padding: 25px 30px;
     background-color: lightgrey;
     border: none;
     cursor: pointer;
@@ -118,18 +122,24 @@ body {
 .content-box {
     position: absolute;
     display: flex;
-
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 100%;
-    top: 63px;
-    bottom: 72px;
+    top: 110px;
+    bottom: 60px;
     z-index: 0;
-    /*border: 3px solid black;*/
 
 }
-
+.map-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 100px;
+    bottom: 70px;
+    z-index: 0;
+}
 .info-box {
     display: flex;
     justify-content: center;
@@ -140,13 +150,29 @@ body {
     border-radius: 5px;
     margin-bottom: 10px;
     width: 93%;
+    font-weight: 400;
+    font-size: 13px;
+    color: grey;
 }
 
-.map-iframe {
+.leaderboard-box {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 230px;
+    padding-bottom: 230px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
     width: 93%;
+    font-weight: 400;
+    font-size: 13px;
+    color: grey;
+}
+.map-iframe {
+    width: 100%;
     height: 100%;
     border: none;
-    border-radius: 10px;
 }   
 
 .settings-scroll {
@@ -155,7 +181,7 @@ body {
     justify-content: center;
     position: absolute;
     width: 100%;
-    top: 49px;
+    top: 100px;
     bottom: 60px;
     overflow-y: auto;
 }
@@ -169,6 +195,41 @@ body {
 }
 
 .settings-buttons:hover {
+    background-color: lightgrey;
+    transition: 0.5s ease;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 265px;
+    padding-bottom: 272px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 93%;
+    font-weight: 400;
+    font-size: 13px;
+    color: grey;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 93%;
+    font-weight: 400;
+    font-size: 13px;
+    color: grey;
+}
+
+.button2:hover {
     background-color: lightgrey;
     transition: 0.5s ease;
 }
