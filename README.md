@@ -1,2 +1,2 @@
-# SustainableEats-App-Mockup
-html mockup of the mobile app for swen101 project demo
+# SustainableEats-App-Mockup (Test Branch)
+HTML Mockup with iphone border
