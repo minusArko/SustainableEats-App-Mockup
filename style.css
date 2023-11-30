@@ -10,11 +10,11 @@ body {
 }
 
 .phoneborder {
-    top: 1.5vh;
+    top: 2vh;
     position: absolute;
     z-index: 10;
     pointer-events: none;
-    height: 89.9vh;
+    height: 90vh;
     width: 45vh;
     /* opacity: 0%; */
 }
