@@ -8,6 +8,15 @@ body {
     font-size: 20px;
 }
 
+.phoneborder {
+    height:100%;
+    width:102%;
+    top:0;
+    left:-1;
+    position: absolute;
+    z-index: 10;
+}
+
 .container {
     height: 78vh;
     width: 45vh;
@@ -23,6 +32,7 @@ body {
     position: relative;
     overflow: hidden;
 }
+
 .Title {
     text-align: center;
     margin-top: 120px;
