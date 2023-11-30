@@ -10,9 +10,9 @@ body {
 
 .phoneborder {
     height:100%;
-    width:102%;
+    width:100%;
     top:0;
-    left:-1;
+    left:0;
     position: absolute;
     z-index: 10;
     pointer-events: none;
