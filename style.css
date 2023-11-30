@@ -233,3 +233,6 @@ body {
     background-color: lightgrey;
     transition: 0.5s ease;
 }
+.stuff {
+    background-color: aliceblue;
+}
